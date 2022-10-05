@@ -1,0 +1,76 @@
+.main {
+  background-color: #f5f5f5;
+  padding: 22px 0;
+}
+
+.main a{
+  display: block;
+}
+.main img {
+  width: 100%;
+  display: block;
+  /* 或者给父元素设置font-size: 0 */
+}
+.showcase-top {
+  height: 58px;
+  text-align: center;
+  line-height: 58px;
+/*   outline: 1px solid red; */
+}
+.showcase-title {
+  font-size: 22px;
+}
+
+.showcase {
+  margin-top: 10px;
+}
+.showcase-more .iconfont{
+  background-color: #aaa;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  line-height: 20px;
+  color: #fff;
+  border-radius: 50%;
+}
+.showcase-more:hover .iconfont{
+  background-color: #ff6700;
+}
+.showcase-item-first {
+  width: 234px;
+  height: 614px;
+  margin-right: 14px;
+/*   outline: 1px solid; */
+}
+.showcase-item-list {
+  width: 978px;
+}
+.showcase-item {
+  background-color: #fff;
+  margin-right: 14px;
+  margin-bottom: 14px;
+  width: 234px;
+  height: 300px;
+  text-align: center;
+}
+.showcase-item:nth-child(4n) {
+  margin-right: 0;
+}
+.showcase-item img {
+  height: 160px;
+  width: 160px;
+  margin: 20px auto;
+}
+.showcase-name {
+  margin-top: 3px;
+  color: #333;
+}
+.showcase-desc {
+  font-size: 12px;
+  color: #b0b0b0;
+}
+.showcase-price {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #ff6700;
+}
